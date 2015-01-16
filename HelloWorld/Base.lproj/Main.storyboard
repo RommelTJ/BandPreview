@@ -77,6 +77,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kNM-6v-NNF">
                                 <rect key="frame" x="16" y="87" width="100" height="100"/>
                             </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="PXa-tX-fix">
+                                <rect key="frame" x="0.0" y="195" width="600" height="412"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="RmI-eG-YqA" id="eeq-ah-04w"/>
+                                    <outlet property="delegate" destination="RmI-eG-YqA" id="quY-W3-yBO"/>
+                                </connections>
+                            </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgX-ID-J9t">
                                 <rect key="frame" x="131" y="87" width="453" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -96,6 +104,7 @@
                     <connections>
                         <outlet property="albumCover" destination="kNM-6v-NNF" id="L7L-zh-v85"/>
                         <outlet property="titleLabel" destination="tgX-ID-J9t" id="we9-dA-a2C"/>
+                        <outlet property="tracksTableView" destination="PXa-tX-fix" id="Qdo-mz-1Oi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pYL-YU-PSv" userLabel="First Responder" sceneMemberID="firstResponder"/>
