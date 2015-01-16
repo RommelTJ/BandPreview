@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		770C9F311A6733B000067887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C9F301A6733B000067887 /* AppDelegate.swift */; };
-		770C9F331A6733B000067887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C9F321A6733B000067887 /* ViewController.swift */; };
+		770C9F331A6733B000067887 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C9F321A6733B000067887 /* SearchResultsViewController.swift */; };
 		770C9F361A6733B000067887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770C9F341A6733B000067887 /* Main.storyboard */; };
 		770C9F381A6733B000067887 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770C9F371A6733B000067887 /* Images.xcassets */; };
 		770C9F3B1A6733B000067887 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770C9F391A6733B000067887 /* LaunchScreen.xib */; };
 		770C9F471A6733B000067887 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C9F461A6733B000067887 /* HelloWorldTests.swift */; };
+		7771A2FC1A682501004A3834 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771A2FB1A682501004A3834 /* APIController.swift */; };
+		7771A2FE1A6850CF004A3834 /* Blank52.png in Resources */ = {isa = PBXBuildFile; fileRef = 7771A2FD1A6850CF004A3834 /* Blank52.png */; };
+		7771A3001A687463004A3834 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771A2FF1A687463004A3834 /* Album.swift */; };
+		7771A3021A697F19004A3834 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771A3011A697F19004A3834 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,17 @@
 		770C9F2B1A6733B000067887 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		770C9F2F1A6733B000067887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		770C9F301A6733B000067887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		770C9F321A6733B000067887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		770C9F321A6733B000067887 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		770C9F351A6733B000067887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		770C9F371A6733B000067887 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		770C9F3A1A6733B000067887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		770C9F401A6733B000067887 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		770C9F451A6733B000067887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		770C9F461A6733B000067887 /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		7771A2FB1A682501004A3834 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		7771A2FD1A6850CF004A3834 /* Blank52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blank52.png; path = ../../../../../Downloads/Blank52.png; sourceTree = "<group>"; };
+		7771A2FF1A687463004A3834 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		7771A3011A697F19004A3834 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,16 @@
 		770C9F2D1A6733B000067887 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				7771A2FD1A6850CF004A3834 /* Blank52.png */,
+				7771A2FB1A682501004A3834 /* APIController.swift */,
 				770C9F301A6733B000067887 /* AppDelegate.swift */,
-				770C9F321A6733B000067887 /* ViewController.swift */,
+				770C9F321A6733B000067887 /* SearchResultsViewController.swift */,
 				770C9F341A6733B000067887 /* Main.storyboard */,
 				770C9F371A6733B000067887 /* Images.xcassets */,
 				770C9F391A6733B000067887 /* LaunchScreen.xib */,
 				770C9F2E1A6733B000067887 /* Supporting Files */,
+				7771A2FF1A687463004A3834 /* Album.swift */,
+				7771A3011A697F19004A3834 /* DetailsViewController.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -193,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				770C9F361A6733B000067887 /* Main.storyboard in Resources */,
+				7771A2FE1A6850CF004A3834 /* Blank52.png in Resources */,
 				770C9F3B1A6733B000067887 /* LaunchScreen.xib in Resources */,
 				770C9F381A6733B000067887 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770C9F331A6733B000067887 /* ViewController.swift in Sources */,
+				770C9F331A6733B000067887 /* SearchResultsViewController.swift in Sources */,
 				770C9F311A6733B000067887 /* AppDelegate.swift in Sources */,
+				7771A2FC1A682501004A3834 /* APIController.swift in Sources */,
+				7771A3001A687463004A3834 /* Album.swift in Sources */,
+				7771A3021A697F19004A3834 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +421,7 @@
 				770C9F4C1A6733B000067887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		770C9F4D1A6733B000067887 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				770C9F4F1A6733B000067887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
