@@ -17,6 +17,8 @@
 		7771A2FE1A6850CF004A3834 /* Blank52.png in Resources */ = {isa = PBXBuildFile; fileRef = 7771A2FD1A6850CF004A3834 /* Blank52.png */; };
 		7771A3001A687463004A3834 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771A2FF1A687463004A3834 /* Album.swift */; };
 		7771A3021A697F19004A3834 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771A3011A697F19004A3834 /* DetailsViewController.swift */; };
+		7771A3041A699DED004A3834 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771A3031A699DED004A3834 /* Track.swift */; };
+		7771A3061A69A1C7004A3834 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771A3051A69A1C7004A3834 /* TrackCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7771A2FD1A6850CF004A3834 /* Blank52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blank52.png; path = ../../../../../Downloads/Blank52.png; sourceTree = "<group>"; };
 		7771A2FF1A687463004A3834 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		7771A3011A697F19004A3834 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		7771A3031A699DED004A3834 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		7771A3051A69A1C7004A3834 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 				770C9F2E1A6733B000067887 /* Supporting Files */,
 				7771A2FF1A687463004A3834 /* Album.swift */,
 				7771A3011A697F19004A3834 /* DetailsViewController.swift */,
+				7771A3031A699DED004A3834 /* Track.swift */,
+				7771A3051A69A1C7004A3834 /* TrackCell.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -225,11 +231,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7771A3061A69A1C7004A3834 /* TrackCell.swift in Sources */,
 				770C9F331A6733B000067887 /* SearchResultsViewController.swift in Sources */,
 				770C9F311A6733B000067887 /* AppDelegate.swift in Sources */,
 				7771A2FC1A682501004A3834 /* APIController.swift in Sources */,
 				7771A3001A687463004A3834 /* Album.swift in Sources */,
 				7771A3021A697F19004A3834 /* DetailsViewController.swift in Sources */,
+				7771A3041A699DED004A3834 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
