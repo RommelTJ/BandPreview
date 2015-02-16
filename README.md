@@ -1,6 +1,6 @@
-# PreviewPlayer
+# BandPreview
 
-Version: 0.0.1 - 13 Feb 2015
+Version: 0.0.1 - 15 Feb 2015
 
 ## Description
 
